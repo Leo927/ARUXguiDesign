@@ -94,11 +94,11 @@ namespace ARUXguiDesign
             this.MainTab.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.MainTab.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainTab.ItemSize = new System.Drawing.Size(50, 140);
-            this.MainTab.Location = new System.Drawing.Point(3, 87);
+            this.MainTab.Location = new System.Drawing.Point(3, 88);
             this.MainTab.Multiline = true;
             this.MainTab.Name = "MainTab";
             this.MainTab.SelectedIndex = 0;
-            this.MainTab.Size = new System.Drawing.Size(1899, 863);
+            this.MainTab.Size = new System.Drawing.Size(1899, 862);
             this.MainTab.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.MainTab.TabIndex = 1;
             this.MainTab.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.MainTab_DrawItem);
@@ -237,7 +237,7 @@ namespace ARUXguiDesign
             this.TabPage_Product.Location = new System.Drawing.Point(144, 4);
             this.TabPage_Product.Name = "TabPage_Product";
             this.TabPage_Product.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Product.Size = new System.Drawing.Size(1751, 855);
+            this.TabPage_Product.Size = new System.Drawing.Size(1751, 854);
             this.TabPage_Product.TabIndex = 2;
             this.TabPage_Product.Text = "Product";
             this.TabPage_Product.UseVisualStyleBackColor = true;
@@ -279,7 +279,7 @@ namespace ARUXguiDesign
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(4, 98);
+            this.dataGridView3.Location = new System.Drawing.Point(4, 97);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 27;
