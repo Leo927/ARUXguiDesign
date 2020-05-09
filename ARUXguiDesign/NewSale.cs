@@ -186,5 +186,10 @@ namespace ARUXguiDesign
         {
 
         }
+
+        private void label45_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

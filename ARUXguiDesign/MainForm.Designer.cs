@@ -63,6 +63,7 @@ namespace ARUXguiDesign
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
             this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
+            this.button7 = new System.Windows.Forms.Button();
             this.mainPanel.SuspendLayout();
             this.MainTab.SuspendLayout();
             this.TabPage_Sales.SuspendLayout();
@@ -104,6 +105,7 @@ namespace ARUXguiDesign
             // 
             // TabPage_Sales
             // 
+            this.TabPage_Sales.Controls.Add(this.button7);
             this.TabPage_Sales.Controls.Add(this.btn_delete);
             this.TabPage_Sales.Controls.Add(this.Btn_Edit);
             this.TabPage_Sales.Controls.Add(this.Btn_NewSale);
@@ -373,6 +375,16 @@ namespace ARUXguiDesign
             this.ribbonPanel3.Name = "ribbonPanel3";
             this.ribbonPanel3.Text = "ribbonPanel3";
             // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(1029, 17);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(308, 68);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Print";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
@@ -474,6 +486,7 @@ namespace ARUXguiDesign
         private ToolStripMenuItem editToolStripMenuItem;
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem settingsToolStripMenuItem;
+        private Button button7;
     }
     
 
