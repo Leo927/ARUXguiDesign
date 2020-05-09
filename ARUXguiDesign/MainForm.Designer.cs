@@ -35,6 +35,7 @@ namespace ARUXguiDesign
             this.mainPanel = new System.Windows.Forms.Panel();
             this.MainTab = new System.Windows.Forms.TabControl();
             this.TabPage_Sales = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
             this.Btn_Edit = new System.Windows.Forms.Button();
             this.Btn_NewSale = new System.Windows.Forms.Button();
@@ -63,7 +64,7 @@ namespace ARUXguiDesign
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
             this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.mainPanel.SuspendLayout();
             this.MainTab.SuspendLayout();
             this.TabPage_Sales.SuspendLayout();
@@ -114,10 +115,20 @@ namespace ARUXguiDesign
             this.TabPage_Sales.Location = new System.Drawing.Point(144, 4);
             this.TabPage_Sales.Name = "TabPage_Sales";
             this.TabPage_Sales.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Sales.Size = new System.Drawing.Size(1751, 855);
+            this.TabPage_Sales.Size = new System.Drawing.Size(1751, 854);
             this.TabPage_Sales.TabIndex = 0;
             this.TabPage_Sales.Text = "Sales";
             this.TabPage_Sales.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(1029, 17);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(308, 68);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Print";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // btn_delete
             // 
@@ -175,7 +186,7 @@ namespace ARUXguiDesign
             this.TabPage_Customer.Location = new System.Drawing.Point(144, 4);
             this.TabPage_Customer.Name = "TabPage_Customer";
             this.TabPage_Customer.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Customer.Size = new System.Drawing.Size(1751, 855);
+            this.TabPage_Customer.Size = new System.Drawing.Size(1751, 854);
             this.TabPage_Customer.TabIndex = 1;
             this.TabPage_Customer.Text = "Customer";
             this.TabPage_Customer.UseVisualStyleBackColor = true;
@@ -230,6 +241,7 @@ namespace ARUXguiDesign
             // 
             // TabPage_Product
             // 
+            this.TabPage_Product.Controls.Add(this.button8);
             this.TabPage_Product.Controls.Add(this.button4);
             this.TabPage_Product.Controls.Add(this.button5);
             this.TabPage_Product.Controls.Add(this.button6);
@@ -375,15 +387,15 @@ namespace ARUXguiDesign
             this.ribbonPanel3.Name = "ribbonPanel3";
             this.ribbonPanel3.Text = "ribbonPanel3";
             // 
-            // button7
+            // button8
             // 
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(1029, 17);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(308, 68);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "Print";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(1023, 11);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(308, 68);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Duplicate";
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -487,6 +499,7 @@ namespace ARUXguiDesign
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem settingsToolStripMenuItem;
         private Button button7;
+        private Button button8;
     }
     
 
