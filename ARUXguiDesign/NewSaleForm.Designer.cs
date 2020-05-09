@@ -1,6 +1,6 @@
 ﻿namespace ARUXguiDesign
 {
-    partial class NewSale
+    partial class NewSaleForm
     {
         /// <summary>
         /// Required designer variable.

@@ -24,7 +24,7 @@ namespace ARUXguiDesign
 
         private void button1_Click(object sender, EventArgs e)
         {
-            NewSale newSale = new NewSale();
+            NewSaleForm newSale = new NewSaleForm();
             newSale.Show();
         }
 

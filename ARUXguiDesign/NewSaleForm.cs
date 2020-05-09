@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ARUXguiDesign
 {
-    public partial class NewSale : Form
+    public partial class NewSaleForm : Form
     {
-        public NewSale()
+        public NewSaleForm()
         {
             InitializeComponent();
         }

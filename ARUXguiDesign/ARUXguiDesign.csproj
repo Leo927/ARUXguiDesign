@@ -49,25 +49,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateProductForm.Designer.cs">
+      <DependentUpon>CreateProductForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewSale.cs">
+    <Compile Include="NewSaleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewSale.Designer.cs">
-      <DependentUpon>NewSale.cs</DependentUpon>
+    <Compile Include="NewSaleForm.Designer.cs">
+      <DependentUpon>NewSaleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CreateProductForm.resx">
+      <DependentUpon>CreateProductForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewSale.resx">
-      <DependentUpon>NewSale.cs</DependentUpon>
+    <EmbeddedResource Include="NewSaleForm.resx">
+      <DependentUpon>NewSaleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
