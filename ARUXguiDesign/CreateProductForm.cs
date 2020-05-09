@@ -26,5 +26,11 @@ namespace ARUXguiDesign
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ManageCategoryForm manageCategoryForm = new ManageCategoryForm();
+            manageCategoryForm.Show();
+        }
     }
 }
