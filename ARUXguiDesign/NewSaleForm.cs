@@ -209,5 +209,11 @@ namespace ARUXguiDesign
             CustomerForm customerForm = new CustomerForm();
             customerForm.Show();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            ScrapForm scrapForm = new ScrapForm();
+            scrapForm.Show();
+        }
     }
 }

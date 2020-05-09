@@ -52,9 +52,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -80,6 +83,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -148,11 +153,6 @@
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.setttingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.MainPanel.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -452,6 +452,15 @@
             this.tabPage1.Text = "Customer";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // comboBox5
+            // 
+            this.comboBox5.Font = new System.Drawing.Font("SimSun", 16F);
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(39, 25);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(305, 35);
+            this.comboBox5.TabIndex = 13;
+            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(567, 24);
@@ -492,6 +501,24 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(928, 575);
             this.panel2.TabIndex = 10;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("SimSun", 16F);
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(270, 351);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(171, 35);
+            this.comboBox4.TabIndex = 22;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("SimSun", 16F);
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(270, 134);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(171, 35);
+            this.comboBox3.TabIndex = 21;
             // 
             // textBox3
             // 
@@ -736,6 +763,26 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(351, 38);
             this.textBox6.TabIndex = 3;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("SimSun", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label21.Location = new System.Drawing.Point(30, 351);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(236, 28);
+            this.label21.TabIndex = 2;
+            this.label21.Text = "Shipping Address";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("SimSun", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label22.Location = new System.Drawing.Point(28, 134);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(222, 28);
+            this.label22.TabIndex = 2;
+            this.label22.Text = "Billing Address";
             // 
             // label7
             // 
@@ -1157,6 +1204,7 @@
             this.button16.TabIndex = 13;
             this.button16.Text = "Create Scrap(Alt+C)";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // dataGridView5
             // 
@@ -1455,53 +1503,6 @@
             this.setttingsToolStripMenuItem.Name = "setttingsToolStripMenuItem";
             this.setttingsToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
             this.setttingsToolStripMenuItem.Text = "Setttings";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("SimSun", 16F);
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(270, 134);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(171, 35);
-            this.comboBox3.TabIndex = 21;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.Font = new System.Drawing.Font("SimSun", 16F);
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(270, 351);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(171, 35);
-            this.comboBox4.TabIndex = 22;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("SimSun", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label22.Location = new System.Drawing.Point(28, 134);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(222, 28);
-            this.label22.TabIndex = 2;
-            this.label22.Text = "Billing Address";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("SimSun", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label21.Location = new System.Drawing.Point(30, 351);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(236, 28);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "Shipping Address";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.Font = new System.Drawing.Font("SimSun", 16F);
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(39, 25);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(305, 35);
-            this.comboBox5.TabIndex = 13;
             // 
             // NewSaleForm
             // 

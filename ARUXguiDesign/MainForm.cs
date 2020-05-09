@@ -60,5 +60,17 @@ namespace ARUXguiDesign
             CreateProductForm createProductForm = new CreateProductForm();
             createProductForm.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ScrapForm scrapForm = new ScrapForm();
+            scrapForm.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            ScrapForm scrapForm = new ScrapForm();
+            scrapForm.Show();
+        }
     }
 }
