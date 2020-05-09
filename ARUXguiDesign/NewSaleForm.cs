@@ -197,5 +197,17 @@ namespace ARUXguiDesign
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
+        }
     }
 }

@@ -35,12 +35,14 @@ namespace ARUXguiDesign
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
         }
 
         private void button1_Click_2(object sender, EventArgs e)
