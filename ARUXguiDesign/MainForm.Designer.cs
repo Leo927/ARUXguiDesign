@@ -35,6 +35,7 @@ namespace ARUXguiDesign
             this.mainPanel = new System.Windows.Forms.Panel();
             this.MainTab = new System.Windows.Forms.TabControl();
             this.TabPage_Sales = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
             this.Btn_Edit = new System.Windows.Forms.Button();
             this.Btn_NewSale = new System.Windows.Forms.Button();
@@ -49,13 +50,6 @@ namespace ARUXguiDesign
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.ribbonTab5 = new System.Windows.Forms.RibbonTab();
-            this.ribbonTab4 = new System.Windows.Forms.RibbonTab();
-            this.ribbonTab3 = new System.Windows.Forms.RibbonTab();
-            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
-            this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
-            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,6 +57,14 @@ namespace ARUXguiDesign
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ribbonTab5 = new System.Windows.Forms.RibbonTab();
+            this.ribbonTab4 = new System.Windows.Forms.RibbonTab();
+            this.ribbonTab3 = new System.Windows.Forms.RibbonTab();
+            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
+            this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
+            this.button8 = new System.Windows.Forms.Button();
             this.mainPanel.SuspendLayout();
             this.MainTab.SuspendLayout();
             this.TabPage_Sales.SuspendLayout();
@@ -93,17 +95,18 @@ namespace ARUXguiDesign
             this.MainTab.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.MainTab.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainTab.ItemSize = new System.Drawing.Size(50, 140);
-            this.MainTab.Location = new System.Drawing.Point(3, 87);
+            this.MainTab.Location = new System.Drawing.Point(3, 88);
             this.MainTab.Multiline = true;
             this.MainTab.Name = "MainTab";
             this.MainTab.SelectedIndex = 0;
-            this.MainTab.Size = new System.Drawing.Size(1899, 863);
+            this.MainTab.Size = new System.Drawing.Size(1899, 862);
             this.MainTab.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.MainTab.TabIndex = 1;
             this.MainTab.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.MainTab_DrawItem);
             // 
             // TabPage_Sales
             // 
+            this.TabPage_Sales.Controls.Add(this.button7);
             this.TabPage_Sales.Controls.Add(this.btn_delete);
             this.TabPage_Sales.Controls.Add(this.Btn_Edit);
             this.TabPage_Sales.Controls.Add(this.Btn_NewSale);
@@ -112,10 +115,20 @@ namespace ARUXguiDesign
             this.TabPage_Sales.Location = new System.Drawing.Point(144, 4);
             this.TabPage_Sales.Name = "TabPage_Sales";
             this.TabPage_Sales.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Sales.Size = new System.Drawing.Size(1751, 855);
+            this.TabPage_Sales.Size = new System.Drawing.Size(1751, 854);
             this.TabPage_Sales.TabIndex = 0;
             this.TabPage_Sales.Text = "Sales";
             this.TabPage_Sales.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(1029, 17);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(308, 68);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Print";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // btn_delete
             // 
@@ -152,7 +165,8 @@ namespace ARUXguiDesign
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -172,7 +186,7 @@ namespace ARUXguiDesign
             this.TabPage_Customer.Location = new System.Drawing.Point(144, 4);
             this.TabPage_Customer.Name = "TabPage_Customer";
             this.TabPage_Customer.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Customer.Size = new System.Drawing.Size(1751, 855);
+            this.TabPage_Customer.Size = new System.Drawing.Size(1751, 854);
             this.TabPage_Customer.TabIndex = 1;
             this.TabPage_Customer.Text = "Customer";
             this.TabPage_Customer.UseVisualStyleBackColor = true;
@@ -227,6 +241,7 @@ namespace ARUXguiDesign
             // 
             // TabPage_Product
             // 
+            this.TabPage_Product.Controls.Add(this.button8);
             this.TabPage_Product.Controls.Add(this.button4);
             this.TabPage_Product.Controls.Add(this.button5);
             this.TabPage_Product.Controls.Add(this.button6);
@@ -234,7 +249,7 @@ namespace ARUXguiDesign
             this.TabPage_Product.Location = new System.Drawing.Point(144, 4);
             this.TabPage_Product.Name = "TabPage_Product";
             this.TabPage_Product.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage_Product.Size = new System.Drawing.Size(1751, 855);
+            this.TabPage_Product.Size = new System.Drawing.Size(1751, 854);
             this.TabPage_Product.TabIndex = 2;
             this.TabPage_Product.Text = "Product";
             this.TabPage_Product.UseVisualStyleBackColor = true;
@@ -268,6 +283,7 @@ namespace ARUXguiDesign
             this.button6.TabIndex = 5;
             this.button6.Text = "New Product";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // dataGridView3
             // 
@@ -276,49 +292,12 @@ namespace ARUXguiDesign
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(4, 98);
+            this.dataGridView3.Location = new System.Drawing.Point(4, 97);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 27;
             this.dataGridView3.Size = new System.Drawing.Size(1742, 745);
             this.dataGridView3.TabIndex = 4;
-            // 
-            // ribbonTab5
-            // 
-            this.ribbonTab5.Name = "ribbonTab5";
-            this.ribbonTab5.Text = "ribbonTab5";
-            // 
-            // ribbonTab4
-            // 
-            this.ribbonTab4.Name = "ribbonTab4";
-            this.ribbonTab4.Text = "ribbonTab4";
-            // 
-            // ribbonTab3
-            // 
-            this.ribbonTab3.Name = "ribbonTab3";
-            this.ribbonTab3.Text = "ribbonTab3";
-            // 
-            // ribbonTab2
-            // 
-            this.ribbonTab2.Name = "ribbonTab2";
-            this.ribbonTab2.Text = "ribbonTab2";
-            // 
-            // ribbonTab1
-            // 
-            this.ribbonTab1.Name = "ribbonTab1";
-            this.ribbonTab1.Panels.Add(this.ribbonPanel2);
-            this.ribbonTab1.Panels.Add(this.ribbonPanel3);
-            this.ribbonTab1.Text = "ribbonTab1";
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.Name = "ribbonPanel2";
-            this.ribbonPanel2.Text = "ribbonPanel2";
-            // 
-            // ribbonPanel3
-            // 
-            this.ribbonPanel3.Name = "ribbonPanel3";
-            this.ribbonPanel3.Text = "ribbonPanel3";
             // 
             // menuStrip1
             // 
@@ -371,6 +350,53 @@ namespace ARUXguiDesign
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
             this.settingsToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.settingsToolStripMenuItem.Text = "Settings";
+            // 
+            // ribbonTab5
+            // 
+            this.ribbonTab5.Name = "ribbonTab5";
+            this.ribbonTab5.Text = "ribbonTab5";
+            // 
+            // ribbonTab4
+            // 
+            this.ribbonTab4.Name = "ribbonTab4";
+            this.ribbonTab4.Text = "ribbonTab4";
+            // 
+            // ribbonTab3
+            // 
+            this.ribbonTab3.Name = "ribbonTab3";
+            this.ribbonTab3.Text = "ribbonTab3";
+            // 
+            // ribbonTab2
+            // 
+            this.ribbonTab2.Name = "ribbonTab2";
+            this.ribbonTab2.Text = "ribbonTab2";
+            // 
+            // ribbonTab1
+            // 
+            this.ribbonTab1.Name = "ribbonTab1";
+            this.ribbonTab1.Panels.Add(this.ribbonPanel2);
+            this.ribbonTab1.Panels.Add(this.ribbonPanel3);
+            this.ribbonTab1.Text = "ribbonTab1";
+            // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonPanel2.Text = "ribbonPanel2";
+            // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.Name = "ribbonPanel3";
+            this.ribbonPanel3.Text = "ribbonPanel3";
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(1023, 11);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(308, 68);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Duplicate";
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -473,6 +499,8 @@ namespace ARUXguiDesign
         private ToolStripMenuItem editToolStripMenuItem;
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem settingsToolStripMenuItem;
+        private Button button7;
+        private Button button8;
     }
     
 

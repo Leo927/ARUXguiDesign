@@ -24,7 +24,8 @@ namespace ARUXguiDesign
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            NewSaleForm newSale = new NewSaleForm();
+            newSale.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -34,12 +35,14 @@ namespace ARUXguiDesign
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
         }
 
         private void button1_Click_2(object sender, EventArgs e)
@@ -50,6 +53,12 @@ namespace ARUXguiDesign
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CreateProductForm createProductForm = new CreateProductForm();
+            createProductForm.Show();
         }
     }
 }

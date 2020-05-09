@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ARUXguiDesign
 {
-    public partial class NewSale : Form
+    public partial class NewSaleForm : Form
     {
-        public NewSale()
+        public NewSaleForm()
         {
             InitializeComponent();
         }
@@ -139,7 +139,8 @@ namespace ARUXguiDesign
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            CreateProductForm createProductForm = new CreateProductForm();
+            createProductForm.Show();
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -155,6 +156,58 @@ namespace ARUXguiDesign
         private void label42_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox24_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label45_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            CustomerForm customerForm = new CustomerForm();
+            customerForm.Show();
         }
     }
 }
