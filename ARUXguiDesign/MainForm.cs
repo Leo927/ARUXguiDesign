@@ -52,5 +52,11 @@ namespace ARUXguiDesign
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CreateProductForm createProductForm = new CreateProductForm();
+            createProductForm.Show();
+        }
     }
 }
